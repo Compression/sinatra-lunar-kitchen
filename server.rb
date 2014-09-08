@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader'
 require 'pg'
+require 'sinatra/activerecord'
 
 require_relative 'models/recipe'
 require_relative 'models/ingredient'
